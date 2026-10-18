@@ -1,0 +1,16 @@
+public class printNumbersFrom1To100DivisibleBy7 {
+
+	public static void main (String... args) {
+	
+		
+		for (int index = 1; index <= 100; index++) 	{
+		    
+		    if (index % 7 == 0) {
+		        System.out.print(index + " "); 
+		    }
+		    
+		}
+	
+	}
+
+}
